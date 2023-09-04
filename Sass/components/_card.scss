@@ -1,0 +1,52 @@
+
+.restaurants {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  
+    background: var(--background, #f6f6f6);
+  
+    .restaurants__title {
+      font-size: 24px;
+      color: black;
+      padding-left: 20px;
+      padding-top: 47px;
+      padding-bottom: 15px;
+    }
+  
+    .restaurants__card {
+      margin: 20px;
+      height: 251px;
+  
+      align-self: stretch;
+      border-radius: 15px;
+      box-shadow: 0px 5px 10px black;
+  
+      img {
+        width: 100%;
+        height: 160px;
+        border-radius: 10px 10px 0px 0px;
+        object-fit: cover;
+      }
+      .restaurants__click {
+        color: black;
+  
+        text-decoration: none;
+      }
+      .restaurants__card__content {
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .restaurants__card__desc {
+        }
+      }
+      .coeur {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
