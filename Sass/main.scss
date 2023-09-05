@@ -17,5 +17,44 @@
   font-family: "Roboto";
 }
 
-
 /*responsive Mobile*/
+@media screen and (min-width: 768px) {
+
+  .fonctionnement {
+
+    width: 80%;
+    .fonctionnement__list {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 30px;
+    }
+  }
+  .restaurants {
+
+    .restaurants__items {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 100px;
+      padding-right: 100px;
+      .items__top {
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        width: auto;
+      }
+      .items__bottom {
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        width: auto;
+      }
+      .restaurants__card {
+        max-width: 490px;
+        width: 100%;
+      }
+    }
+  }
+}
+  
