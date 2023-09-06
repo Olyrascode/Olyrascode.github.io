@@ -294,6 +294,7 @@ footer .footer__item {
   flex-direction: row;
   gap: 10px;
   color: #eaeaea;
+  font-family: "Roboto";
 }
 
 * {
