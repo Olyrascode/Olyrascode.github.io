@@ -1,0 +1,97 @@
+
+.menu {
+    
+    border-radius:  20px 20px 0px 0px;
+    background-color: #f6f6f6;
+    position: relative;
+    margin-top: -50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto";
+   
+    gap: 40px;
+        .menu__title {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 32px;
+        }
+    .menu__part {
+    
+       
+    
+        .menu__part__title {
+            padding-bottom: 10px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: uppercase;
+            text-decoration: underline #99e2d0 2px;
+            
+        }
+        .menu__part__items {
+         
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            .menu__part__card {
+           
+                padding: 15px;
+                border-radius: 15px;
+                box-shadow:  0px 2px 12px rgba(0, 0, 0, 0.453);
+                    .menu__part__card__title {
+                        font-size: 18px;
+                        
+                    }
+                    .menu__part__card__description {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        font-size: 15px;
+                        font-weight: 300;
+                            span {
+                                font-weight: 500;
+                            }
+                    }
+            }
+            }
+    }
+
+}
+.menu__button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    .center__explore-button {
+        border: none;
+        width: 218px;
+        height: 50px;
+        border-radius: 25px;
+        background: var(
+            --button-gradient,
+            linear-gradient(175deg, #9356dc 0%, #ff79da 100%)
+            );
+            box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+            color: white;
+            font-size: 16px;
+            font-weight: 500;       
+        }
+    }
+
+
+    /* reponsive menu*/
+    @media screen and (min-width: 768px) {
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+       
+        }
+        .menu {
+           width: 70%;
+  
+           
+           
+        }
+    }
