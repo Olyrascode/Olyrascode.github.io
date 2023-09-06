@@ -20,4 +20,23 @@ footer {
     color: #eaeaea;
     font-family: "Roboto";
   }
+
+}
+  @media screen and (min-width: 768px) {
+
+    footer {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      padding-top: 30px;
+      .footer__list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        
+      
+
+    }
+  }
 }

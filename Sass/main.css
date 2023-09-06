@@ -297,6 +297,19 @@ footer .footer__item {
   font-family: "Roboto";
 }
 
+@media screen and (min-width: 768px) {
+  footer {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-top: 30px;
+  }
+  footer .footer__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
 * {
   margin: 0;
   padding: 0;
