@@ -97,24 +97,50 @@
   gap: 12px;
 }
 .menu .menu__part .menu__part__items .menu__part__card {
-  padding: 15px;
-  border-radius: 15px;
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.453);
-}
-.menu .menu__part .menu__part__items .menu__part__card .menu__part__card__title {
-  font-size: 18px;
-}
-.menu .menu__part .menu__part__items .menu__part__card .menu__part__card__description {
   display: flex;
   flex-direction: row;
+  position: relative;
+  border-radius: 15px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.453);
+  justify-content: space-between;
+}
+.menu .menu__part .menu__part__items .menu__part__card:hover .check {
+  width: 50px;
+}
+.menu .menu__part .menu__part__items .menu__part__card .menu__part__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  width: 100%;
+  align-items: center;
+}
+.menu .menu__part .menu__part__items .menu__part__card .menu__part__content .menu__part__card__description {
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
   font-size: 15px;
   font-weight: 300;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-.menu .menu__part .menu__part__items .menu__part__card .menu__part__card__description span {
-  font-weight: 500;
+.menu .menu__part .menu__part__items .menu__part__card .menu__part__content .menu__part__card__title {
+  font-size: 18px;
+}
+.menu .menu__part .menu__part__items .menu__part__card .check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  background-color: #99e2d0;
+  height: auto;
+  width: 0px;
+  border-radius: 0px 10px 10px 0px;
+  transition: 0.4s;
 }
 
+/* animation */
+/*fin animations*/
 .menu__button {
   display: flex;
   justify-content: center;
