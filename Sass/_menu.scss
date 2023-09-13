@@ -16,6 +16,29 @@
     justify-content: space-between;
     padding-top: 32px;
   }
+
+  .coeur {
+    position: absolute;
+    right: 5%;
+     width: 22px;
+     height: 22px;
+     border-radius: 0;
+     padding: 1px;
+     opacity: 1;
+     
+   }
+   .coeur_liked {
+     position: absolute;
+     right: 5%;
+     width: 24px;
+     height: 24px; 
+     border-radius: 0;
+     transition: 0.1s;
+     opacity: 0;
+     &:hover {
+       opacity: 1;
+     }
+    }
   .menu__part {
   
     .menu__part__title {
@@ -135,4 +158,3 @@
     width: 70%;
   }
 }
-

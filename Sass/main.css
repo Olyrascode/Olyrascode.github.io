@@ -58,17 +58,28 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 .restaurants .restaurants__card .coeur {
-  width: 24px;
-  height: 24px;
+  position: absolute;
+  right: 5%;
+  width: 22px;
+  height: 22px;
   border-radius: 0;
+  padding: 1px;
+  opacity: 1;
 }
 .restaurants .restaurants__card .coeur_liked {
+  position: absolute;
+  right: 5%;
   width: 24px;
   height: 24px;
   border-radius: 0;
-  display: none;
+  transition: 0.1s;
+  opacity: 0;
+}
+.restaurants .restaurants__card .coeur_liked:hover {
+  opacity: 1;
 }
 
 .menu {
@@ -87,6 +98,27 @@
   display: flex;
   justify-content: space-between;
   padding-top: 32px;
+}
+.menu .coeur {
+  position: absolute;
+  right: 5%;
+  width: 22px;
+  height: 22px;
+  border-radius: 0;
+  padding: 1px;
+  opacity: 1;
+}
+.menu .coeur_liked {
+  position: absolute;
+  right: 5%;
+  width: 24px;
+  height: 24px;
+  border-radius: 0;
+  transition: 0.1s;
+  opacity: 0;
+}
+.menu .coeur_liked:hover {
+  opacity: 1;
 }
 .menu .menu__part .menu__part__title {
   padding-bottom: 10px;
@@ -399,8 +431,5 @@ footer .footer__item {
   .restaurants .restaurants__items .restaurants__card {
     max-width: 490px;
     width: 100%;
-  }
-  .restaurants .restaurants__items .restaurants__card .restaurants__card__content #coeur path {
-    fill: red;
   }
 }/*# sourceMappingURL=main.css.map */
