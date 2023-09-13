@@ -2,6 +2,7 @@
   border-radius: 20px 20px 0px 0px;
   background-color: #f6f6f6;
   position: relative;
+
   margin-top: -50px;
   padding-left: 20px;
   padding-right: 20px;
@@ -16,6 +17,7 @@
     padding-top: 32px;
   }
   .menu__part {
+  
     .menu__part__title {
       padding-bottom: 10px;
       font-size: 16px;
@@ -28,52 +30,57 @@
       display: flex;
       flex-direction: column;
       gap: 12px;
+      
+      
 
       .menu__part__card {
         display: flex;
         flex-direction: row;
-        position: relative;
+       
         border-radius: 15px;
         box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.453);
-        justify-content: space-between;
+        border: 3px solid red;
+       
         &:hover .check {
-            width: 50px;
+            width: 60px;
+            margin-left: 5px;
         }
 
         .menu__part__content {
             display: flex;
             justify-content: space-between;
-            padding: 15px;
-            width: 100%;
+           width: 99%;
+        
             align-items: center;
+            border: 2px solid blue;
           
             .menu__part__card__description {
               
-              display: flex;
-              flex-direction: column;
-              justify-content: space-between;
+      
+          
               font-size: 15px;
               font-weight: 300;
+              padding: 15px;
               white-space: nowrap;
               overflow: hidden;
               text-overflow: ellipsis;
-           
-             
-          
-             
-              
+              max-width: 90%;
+    
             }
             .menu__part__card__title {
               font-size: 18px;
-            
-              
+              overflow: hidden;
+              text-overflow: ellipsis;
+            }
+            p {
+                overflow: hidden;
+                text-overflow: ellipsis;
             }
         }
         
         .check {
           display: flex;
           align-items: center;
-       
           justify-content: center;
           font-size: 24px;
           background-color: #99e2d0;
@@ -81,7 +88,7 @@
             width: 0px;
             border-radius: 0px 10px 10px 0px;
             transition: 0.4s;
-           
+           border: 2px solid green;
                
         }
       }
@@ -124,3 +131,4 @@
     width: 70%;
   }
 }
+

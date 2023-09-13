@@ -6,6 +6,7 @@
 @import "./layout/_header.scss";
 @import "./layout/_footer.scss";
 
+
 * {
   margin: 0;
   padding: 0;
@@ -59,8 +60,17 @@
       .restaurants__card {
         max-width: 490px;
         width: 100%;
+          .restaurants__card__content {
+            #coeur path {
+              fill: red;
+              
+            }
+          }
+        
       }
     }
   }
 }
+
+
   

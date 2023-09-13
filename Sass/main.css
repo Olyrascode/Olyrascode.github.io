@@ -99,33 +99,38 @@
 .menu .menu__part .menu__part__items .menu__part__card {
   display: flex;
   flex-direction: row;
-  position: relative;
   border-radius: 15px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.453);
-  justify-content: space-between;
+  border: 3px solid red;
 }
 .menu .menu__part .menu__part__items .menu__part__card:hover .check {
-  width: 50px;
+  width: 60px;
+  margin-left: 5px;
 }
 .menu .menu__part .menu__part__items .menu__part__card .menu__part__content {
   display: flex;
   justify-content: space-between;
-  padding: 15px;
-  width: 100%;
+  width: 99%;
   align-items: center;
+  border: 2px solid blue;
 }
 .menu .menu__part .menu__part__items .menu__part__card .menu__part__content .menu__part__card__description {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   font-size: 15px;
   font-weight: 300;
+  padding: 15px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  max-width: 90%;
 }
 .menu .menu__part .menu__part__items .menu__part__card .menu__part__content .menu__part__card__title {
   font-size: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.menu .menu__part .menu__part__items .menu__part__card .menu__part__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .menu .menu__part .menu__part__items .menu__part__card .check {
   display: flex;
@@ -137,6 +142,7 @@
   width: 0px;
   border-radius: 0px 10px 10px 0px;
   transition: 0.4s;
+  border: 2px solid green;
 }
 
 /* animation */
@@ -386,5 +392,8 @@ footer .footer__item {
   .restaurants .restaurants__items .restaurants__card {
     max-width: 490px;
     width: 100%;
+  }
+  .restaurants .restaurants__items .restaurants__card .restaurants__card__content #coeur path {
+    fill: red;
   }
 }/*# sourceMappingURL=main.css.map */
