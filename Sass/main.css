@@ -64,6 +64,12 @@
   height: 24px;
   border-radius: 0;
 }
+.restaurants .restaurants__card .coeur_liked {
+  width: 24px;
+  height: 24px;
+  border-radius: 0;
+  display: none;
+}
 
 .menu {
   border-radius: 20px 20px 0px 0px;
@@ -99,9 +105,9 @@
 .menu .menu__part .menu__part__items .menu__part__card {
   display: flex;
   flex-direction: row;
+  width: 100%;
   border-radius: 15px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.453);
-  border: 3px solid red;
 }
 .menu .menu__part .menu__part__items .menu__part__card:hover .check {
   width: 60px;
@@ -110,18 +116,20 @@
 .menu .menu__part .menu__part__items .menu__part__card .menu__part__content {
   display: flex;
   justify-content: space-between;
-  width: 99%;
+  width: 100%;
+  border-radius: 15px;
   align-items: center;
-  border: 2px solid blue;
+}
+.menu .menu__part .menu__part__items .menu__part__card .menu__part__content span {
+  padding-right: 10px;
 }
 .menu .menu__part .menu__part__items .menu__part__card .menu__part__content .menu__part__card__description {
   font-size: 15px;
   font-weight: 300;
   padding: 15px;
+  width: 100%;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 90%;
 }
 .menu .menu__part .menu__part__items .menu__part__card .menu__part__content .menu__part__card__title {
   font-size: 18px;
@@ -138,11 +146,10 @@
   justify-content: center;
   font-size: 24px;
   background-color: #99e2d0;
-  height: auto;
+  height: 100%;
   width: 0px;
   border-radius: 0px 10px 10px 0px;
   transition: 0.4s;
-  border: 2px solid green;
 }
 
 /* animation */
