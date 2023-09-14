@@ -71,7 +71,7 @@ body {
      }
     }
   .menu__part {
-  
+    opacity: 0;
     .menu__part__title {
       padding-bottom: 10px;
       font-size: 16px;
@@ -155,6 +155,12 @@ body {
   }
 }
 /* animation */
+.part1 {
+  animation-name: appear1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+ 
+
   .element1 {
     
     animation-name: appear1;
@@ -182,6 +188,7 @@ body {
     animation-fill-mode: forwards;
     animation-delay: 1.2s;
   }
+}
 
   @keyframes appear1 {
     0% {
@@ -191,6 +198,74 @@ body {
       opacity: 1;
     }
   }
+
+  .part2 {
+    animation-name: appear1;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+    .element1 {
+    
+      animation-name: appear1;
+      animation-duration: 1s;
+      animation-delay: 1.8s;
+      animation-fill-mode: forwards;
+    
+    }
+    .element2 {
+      animation-name: appear1;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+      animation-delay: 2.1s;
+      
+    }
+    .element3 {
+      animation-name: appear1;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+      animation-delay: 2.4s;
+    }
+    .element4 {
+      animation-name: appear1;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+      animation-delay: 2.7s;
+    }
+  }
+  .part3 {
+    animation-name: appear1;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    .element1 {
+    
+      animation-name: appear1;
+      animation-duration: 1s;
+      animation-delay: 3.3s;
+      animation-fill-mode: forwards;
+    
+    }
+    .element2 {
+      animation-name: appear1;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+      animation-delay: 3.6s;
+      
+    }
+    .element3 {
+      animation-name: appear1;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+      animation-delay: 3.9s;
+    }
+    .element4 {
+      animation-name: appear1;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+      animation-delay: 4.2s;
+    }
+  }
+
 
 /*fin animations*/
 .menu__button {
