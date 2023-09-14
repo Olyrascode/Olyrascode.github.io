@@ -123,8 +123,11 @@ body {
 }
 .menu .menu__title {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   padding-top: 32px;
+  font-family: "Shrikhand";
+  font-size: 85%;
 }
 .menu .coeur {
   position: absolute;
@@ -232,6 +235,13 @@ body {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 0.9s;
+}
+
+.element4 {
+  animation-name: appear1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1.2s;
 }
 
 @keyframes appear1 {

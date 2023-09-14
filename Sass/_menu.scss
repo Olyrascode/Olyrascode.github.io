@@ -41,8 +41,11 @@ body {
     }
   .menu__title {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding-top: 32px;
+    font-family: "Shrikhand";
+    font-size: 85%;
   }
 
   .coeur {
@@ -173,6 +176,13 @@ body {
     animation-fill-mode: forwards;
     animation-delay: 0.9s;
   }
+  .element4 {
+    animation-name: appear1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1.2s;
+  }
+
   @keyframes appear1 {
     0% {
       opacity: 0;
