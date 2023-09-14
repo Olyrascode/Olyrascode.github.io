@@ -53,7 +53,7 @@
   text-decoration: none;
 }
 .restaurants .restaurants__card .restaurants__card__content {
-  padding: 20px 10px 10px 10px;
+  padding: 20px 10px 10px 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -82,6 +82,21 @@
   opacity: 1;
 }
 
+body {
+  animation-name: fadeIn;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .menu {
   border-radius: 20px 20px 0px 0px;
   background-color: #f6f6f6;
@@ -93,6 +108,18 @@
   flex-direction: column;
   font-family: "Roboto";
   gap: 40px;
+  animation-name: fadeIn;
+  animation-duration: 0.4s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .menu .menu__title {
   display: flex;
@@ -135,6 +162,7 @@
   gap: 12px;
 }
 .menu .menu__part .menu__part__items .menu__part__card {
+  opacity: 0;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -185,6 +213,35 @@
 }
 
 /* animation */
+.element1 {
+  animation-name: appear1;
+  animation-duration: 1s;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+.element2 {
+  animation-name: appear1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.6s;
+}
+
+.element3 {
+  animation-name: appear1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.9s;
+}
+
+@keyframes appear1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /*fin animations*/
 .menu__button {
   display: flex;
@@ -371,7 +428,7 @@ footer .footer__title {
   font-family: "Shrikhand";
   font-weight: 400;
   font-size: 18px;
-  line-height: normal;
+  align-items: center;
 }
 footer .footer__item {
   padding: 0px 22px 10px;
@@ -380,6 +437,10 @@ footer .footer__item {
   gap: 10px;
   color: #eaeaea;
   font-family: "Roboto";
+}
+footer .footer__link {
+  text-decoration: none;
+  color: white;
 }
 
 @media screen and (min-width: 768px) {
@@ -412,18 +473,32 @@ footer .footer__item {
   display: flex;
   position: fixed;
   z-index: 9999;
-  background-color: red;
+  background-color: #f3f3f3;
   width: 100%;
   height: 100%;
   justify-content: center;
+  animation-name: fadeOut;
+  animation-delay: 2s;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeOut {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
 }
 #loader .loader__spinner {
-  border: 4px solid #f3f3f3;
-  border-top: 4px solid #3498db;
+  border: 4px solid #ff79da;
+  border-top: 4px solid #9356dc;
   border-radius: 50%;
   width: 100px;
   height: 100px;
-  top: 50pt;
+  top: 10%;
   animation: spin 2s linear infinite;
   position: fixed;
   transform: translate(-50%, -50%);
