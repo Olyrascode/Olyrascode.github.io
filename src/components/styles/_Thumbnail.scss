@@ -1,0 +1,30 @@
+.thumbnail {
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #f6f6f6;
+  padding-top: 6px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 43px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 43px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+@media screen and (max-width: 980px) {
+  .thumbnail {
+    width: auto;
+    margin: 20px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .thumbnail {
+    width: 335px;
+    margin: -25px 20px 0px 20px;
+    padding: 0;
+    background-color: transparent;
+  }
+}

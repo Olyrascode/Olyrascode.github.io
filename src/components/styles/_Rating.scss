@@ -1,0 +1,24 @@
+.star {
+  width: 24px; // Ajustez la largeur et la hauteur en fonction de la taille de votre étoile
+  height: 24px;
+  display: inline-block;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 4px; // Ajustez la marge entre les étoiles
+}
+
+.star.yellow {
+  background-image: url("../assets/images/starColor.svg"); // Ajustez le chemin selon votre structure de dossier
+}
+
+.star.gray {
+  background-image: url("../assets/images/starGrey.svg"); // Ajustez le chemin selon votre structure de dossier
+}
+
+@media screen and (max-width: 375px) {
+  .star {
+    height: 18px;
+    width: 18px;
+  }
+}
