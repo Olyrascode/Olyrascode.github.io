@@ -1,6 +1,0 @@
-TO do List 
-
-verifier les tailles 
-modifier footer en format desktop
-attention le footer possiblement row reverse
-changer images et texte des card home 
