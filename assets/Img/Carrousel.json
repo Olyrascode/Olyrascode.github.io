@@ -1,92 +1,91 @@
 [
-    {
-      "src": "src/assets/Img/projets/ohMyFood/ohmyfood.webp",
-      "title": "Oh My Food",
-      "color": "#DA43C1",
-      "description": "Site de commande de restauration. Intégration maquette Figma en Html,Css. Utilisation de Sass et des animations",
-      "link": "https://github.com/Olyrascode/OhMyFood",
-      "background-color": "#F3D1F0",
+  {
+    "src": "/assets/Img/projets/ohMyFood/ohmyfood.webp",
+    "title": "Oh My Food",
+    "color": "#DA43C1",
+    "description": "Site de commande de restauration. Intégration maquette Figma en Html,Css. Utilisation de Sass et des animations",
+    "link": "https://github.com/Olyrascode/OhMyFood",
+    "background-color": "#F3D1F0",
+    "screen": [
+      "/assets/Img/projets/ohMyFood/ohmyfoodmobilmenu.png",
+      "/assets/Img/projets/ohMyFood/ohmyfood.webp",
+      "/assets/Img/projets/image3.webp"
+    ],
+    "techno": [ 
+      "/assets/Img/jsLogo.png",
+      "/assets/Img/sassLogo.png"
+    ]
+  },
+  {
+    "src": "/assets/Img/projets/celtill.webp",
+    "title": "Celtill",
+    "description": "Celtill Sécurité reseaux",
+    "link": "https://github.com/Olyrascode/Celtill",
+    "color": "#3565C5",
+    "background-color": "#777BFE",
+    "screen": [
+      "/assets/Img/projets/celtill.webp",
+      "/assets/Img/projets/ohMyFood/ohmyfood.webp",
+      "/assets/Img/projets/image3.webp"
+    ],
+    "techno": [ 
+      "/assets/Img/jsLogo.png",
+      "/assets/Img/sassLogo.png",
+      "/assets/Img/reactLogo.png"
+    ]
+  },
+  {
+      "src": "/assets/Img/projets/bluel.webp",
+      "title": "Sophie Bluel",
+      "description": "PorteFollio Sophie Bluel",
+      "link": "https://github.com/Olyrascode/SophieBluel",
+      "color": "#DCA647",
+      "background-color": "#FFD298",
       "screen": [
-        "src/assets/Img/projets/ohMyFood/ohmyfoodmobilmenu.png",
-        "src/assets/Img/projets/ohMyFood/ohmyfood.webp",
-        "src/assets/Img/projets/image3.webp"
+        "/assets/Img/projets/bluel.webp",
+        "/assets/Img/projets/ohMyFood/ohmyfood.webp",
+        "/assets/Img/projets/image3.webp"
       ],
       "techno": [ 
-        "src/assets/Img/jsLogo.png",
-        "src/assets/Img/sassLogo.png"
+        "/assets/Img/jsLogo.png",
+        "/assets/Img/sassLogo.png"
+     
       ]
-    },
-    {
-      "src": "src/assets/Img/projets/celtill.webp",
-      "title": "Celtill",
-      "description": "Celtill Sécurité reseaux",
-      "link": "https://github.com/Olyrascode/Celtill",
-      "color": "#3565C5",
-      "background-color": "#777BFE",
+  },
+  {
+      "src": "/assets/Img/projets/Capture.webp",
+      "title": "Booki",
+      "description": "Réservation de logement",
+      "link": "lien_vers_plus_dinfos_2",
+      "color": "#110AF6",
+      "background-color": "#A4DFFF",
       "screen": [
-        "src/assets/Img/projets/celtill.webp",
-        "src/assets/Img/projets/ohMyFood/ohmyfood.webp",
-        "src/assets/Img/projets/image3.webp"
+        "/assets/Img/projets/Capture.webp",
+        "/assets/Img/projets/ohMyFood/ohmyfood.webp",
+        "/assets/Img/projets/image3.webp"
       ],
       "techno": [ 
-        "src/assets/Img/jsLogo.png",
-        "src/assets/Img/sassLogo.png",
-        "src/assets/Img/reactLogo.png"
+        "/assets/Img/jsLogo.png",
+        "/assets/Img/sassLogo.png",
+        "/assets/Img/reactLogo.png"
       ]
-    },
-    {
-        "src": "src/assets/Img/projets/bluel.webp",
-        "title": "Sophie Bluel",
-        "description": "PorteFollio Sophie Bluel",
-        "link": "https://github.com/Olyrascode/SophieBluel",
-        "color": "#DCA647",
-        "background-color": "#FFD298",
-        "screen": [
-          "src/assets/Img/projets/bluel.webp",
-          "src/assets/Img/projets/ohMyFood/ohmyfood.webp",
-          "src/assets/Img/projets/image3.webp"
-        ],
-        "techno": [ 
-          "src/assets/Img/jsLogo.png",
-          "src/assets/Img/sassLogo.png"
-       
-        ]
-    },
-    {
-        "src": "src/assets/Img/projets/Capture.webp",
-        "title": "Booki",
-        "description": "Réservation de logement",
-        "link": "lien_vers_plus_dinfos_2",
-        "color": "#110AF6",
-        "background-color": "#A4DFFF",
-        "screen": [
-          "src/assets/Img/projets/Capture.webp",
-          "src/assets/Img/projets/ohMyFood/ohmyfood.webp",
-          "src/assets/Img/projets/image3.webp"
-        ],
-        "techno": [ 
-          "src/assets/Img/jsLogo.png",
-          "src/assets/Img/sassLogo.png",
-          "src/assets/Img/reactLogo.png"
-        ]
-    },
-    {
-        "src": "src/assets/Img/projets/kasascreen.png",
-        "title": "Kasa",
-        "description": "Réservation de logement",
-        "link": "https://github.com/Olyrascode/Kasa",
-        "color": "#FD5050",
-        "background-color": "#FFBCA4",
-        "screen": [
-          "src/assets/Img/projets/kasascreen.png",
-          "src/assets/Img/projets/ohMyFood/ohmyfood.webp",
-          "src/assets/Img/projets/image3.webp"
-        ],
-        "techno": [ 
-          "src/assets/Img/jsLogo.png",
-          "src/assets/Img/sassLogo.png",
-          "src/assets/Img/reactLogo.png"
-        ]
-    }
-  ]
-  
+  },
+  {
+      "src": "/assets/Img/projets/kasascreen.png",
+      "title": "Kasa",
+      "description": "Réservation de logement",
+      "link": "https://github.com/Olyrascode/Kasa",
+      "color": "#FD5050",
+      "background-color": "#FFBCA4",
+      "screen": [
+        "/assets/Img/projets/kasascreen.png",
+        "/assets/Img/projets/ohMyFood/ohmyfood.webp",
+        "/assets/Img/projets/image3.webp"
+      ],
+      "techno": [ 
+        "/assets/Img/jsLogo.png",
+        "/assets/Img/sassLogo.png",
+        "/assets/Img/reactLogo.png"
+      ]
+  }
+]
