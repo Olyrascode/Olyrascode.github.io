@@ -1,0 +1,68 @@
+[
+    {
+      "src": "src/assets/Img/projets/ohMyFood/ohmyfood.webp",
+      "title": "Oh My Food",
+      "color": "#DA43C1",
+      "description": "projet oh My FOod",
+      "link": "https://github.com/Olyrascode/OhMyFood",
+      "background-color": "#F3D1F0",
+      "screen": [
+        "src/assets/Img/projets/ohMyFood/ohmyfoodmobilmenu.png",
+        "src/assets/Img/projets/ohMyFood/ohmyfood.webp",
+        "src/assets/Img/projets/image3.webp"
+      ]
+    },
+    {
+      "src": "src/assets/Img/projets/celtill.webp",
+      "title": "Celtill",
+      "description": "Celtill Sécurité reseaux",
+      "link": "https://github.com/Olyrascode/Celtill",
+      "color": "#3565C5",
+      "background-color": "#777BFE",
+      "screen": [
+        "src/assets/Img/projets/celtill.webp",
+        "src/assets/Img/projets/ohMyFood/ohmyfood.webp",
+        "src/assets/Img/projets/image3.webp"
+      ]
+    },
+    {
+        "src": "src/assets/Img/projets/bluel.webp",
+        "title": "Sophie Bluel",
+        "description": "PorteFollio Sophie Bluel",
+        "link": "https://github.com/Olyrascode/SophieBluel",
+        "color": "#DCA647",
+        "background-color": "#FFD298",
+        "screen": [
+          "src/assets/Img/projets/bluel.webp",
+          "src/assets/Img/projets/ohMyFood/ohmyfood.webp",
+          "src/assets/Img/projets/image3.webp"
+        ]
+    },
+    {
+        "src": "src/assets/Img/projets/Capture.webp",
+        "title": "Booki",
+        "description": "Réservation de logement",
+        "link": "lien_vers_plus_dinfos_2",
+        "color": "#110AF6",
+        "background-color": "#A4DFFF",
+        "screen": [
+          "src/assets/Img/projets/Capture.webp",
+          "src/assets/Img/projets/ohMyFood/ohmyfood.webp",
+          "src/assets/Img/projets/image3.webp"
+        ]
+    },
+    {
+        "src": "src/assets/Img/projets/kasascreen.png",
+        "title": "Kasa",
+        "description": "Réservation de logement",
+        "link": "https://github.com/Olyrascode/Kasa",
+        "color": "#FD5050",
+        "background-color": "#FFBCA4",
+        "screen": [
+          "src/assets/Img/projets/kasascreen.png",
+          "src/assets/Img/projets/ohMyFood/ohmyfood.webp",
+          "src/assets/Img/projets/image3.webp"
+        ]
+    }
+  ]
+  

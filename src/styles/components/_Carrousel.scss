@@ -1,0 +1,19 @@
+.carrousel {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.imageCarrousel {
+  width: 200px;
+  height: 500px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.imageCarrousel:hover {
+  transform: scale(1.08);
+}
+.arrow {
+  margin: 50px;
+}

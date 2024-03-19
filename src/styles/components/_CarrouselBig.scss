@@ -1,0 +1,152 @@
+.carrousel-big {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  button {
+    background-color: transparent;
+    border: none;
+    width: 40px;
+    margin: 0 auto; /* Pour centrer horizontalement */
+    position: relative; /* Assurez-vous que la transformation est appliquée correctement */
+    overflow: hidden; /* Pour éviter le débordement de l'image */
+
+    img {
+      width: 40px;
+      transition: transform 0.5s ease; /* Ajouter une transition fluide à l'image */
+    }
+
+    &:hover {
+      img {
+        transform: rotate(
+          90deg
+        ); /* Faire pivoter l'image de 180 degrés au survol */
+      }
+    }
+  }
+}
+
+.carousel-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 1000px;
+  overflow: hidden; /* Assurez-vous que seul un élément est visible à la fois */
+
+  .centerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 1600px;
+    height: 1000px;
+
+    h3 {
+      text-align: center;
+      width: 120%;
+      position: absolute;
+      z-index: 8;
+      word-spacing: 80px;
+      top: 300px;
+      font-size: 12vw;
+      font-family: "Agdasima", sans-serif;
+      letter-spacing: 50px;
+      text-wrap: nowrap;
+    }
+
+    .title {
+      width: 1000px;
+      height: auto;
+      transition: left 1s ease-in-out;
+      text-wrap: wrap;
+    }
+
+    .move-left {
+      left: 10px;
+      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.091);
+      transition: left 1s ease-in-out;
+    }
+
+    .centerContainer {
+      background-color: #000; /* Couleur de fond de la div */
+      width: 45%;
+      height: 45%;
+      display: flex; /* Utilisation de flexbox pour aligner l'image au centre */
+      justify-content: center; /* Centrer horizontalement */
+      align-items: center; /* Centrer verticalement */
+      overflow: hidden; /* Masque le débordement des images */
+      position: absolute;
+      transition: transform 0.5s ease; /* Ajouter une transition fluide au déplacement */
+
+      .imageCenter {
+        height: auto;
+        width: 100%;
+      }
+    }
+    .more {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      top: 90%;
+
+      animation: fadeIn 1s ease; /* Ajouter une animation de fondu en entrée */
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0; /* Début de l'animation avec une opacité de 0 */
+        }
+        to {
+          opacity: 1; /* Fin de l'animation avec une opacité de 1 */
+        }
+      }
+      .moreCross {
+        margin-bottom: 5px;
+        transform: rotate(45deg);
+      }
+
+      .bar {
+        margin-bottom: 5px;
+        height: 0;
+        transition: height 0.5s ease; /* Ajouter une transition fluide à la hauteur */
+      }
+
+      &:hover {
+        .bar {
+          border: 1px solid rgb(38, 38, 38);
+          height: 20px; /* Animation de 0px à 20px de hauteur */
+        }
+      }
+    }
+  }
+
+  .sideContainer {
+    background-color: #000; /* Couleur de fond de la div */
+    width: 500px;
+    height: 500px;
+
+    display: flex; /* Utilisation de flexbox pour aligner l'image au centre */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+    overflow: hidden; /* Masque le débordement des images */
+
+    .imageSide {
+      height: 500px;
+    }
+  }
+}
+
+// responsive
+@media (max-width: 990px) {
+  .carousel-images {
+    display: flex;
+    flex-direction: column;
+    .centerContent {
+      width: 100%;
+    }
+    .sideContainer {
+      width: 100%;
+    }
+  }
+}
