@@ -1,6 +1,6 @@
 [
   {
-    "src": "/assets/Img/projets/ohMyFood/ohmyfood.webp",
+    "src": "/assets/Img/projets/ohMyFood/ohmyfoodbanner.JPG",
     "title": "Oh My Food",
     "color": "#DA43C1",
     "description": [
@@ -22,7 +22,7 @@
     ]
   },
   {
-    "src": "/assets/Img/projets/celtill.webp",
+    "src": "/assets/Img/projets/celtill/celtillbanner.JPG",
     "title": "Celtill",
     "description": [
       "+ Entreprise Sécurité reseaux et audit. ",
@@ -44,8 +44,8 @@
     ]
   },
   {
-      "src": "/assets/Img/projets/bluel.webp",
-      "title": "Sophie Bluel",
+      "src": "/assets/Img/projets/sophieBluel/bluelbanner.JPG",
+      "title": "Sophie Bl uel",
       "description": [
         "+ Portfolio de Sophie Bluel ",
         "+ Intégration maquette Figma Html Scss. ",
@@ -67,7 +67,7 @@
       ]
   },
   {
-      "src": "/assets/Img/projets/Capture.webp",
+      "src": "/assets/Img/projets/booki/bookiebanner.JPG",
       "title": "Booki",
       "description": [
         "+ Site de réservation de logements ",
@@ -89,7 +89,7 @@
       ]
   },
   {
-      "src": "/assets/Img/projets/kasascreen.png",
+      "src": "/assets/Img/projets/kasa/kasabanner.JPG",
       "title": "Kasa",
       "description": [
         "+ Site de réservation type Air BnB. ",
