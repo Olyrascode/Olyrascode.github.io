@@ -3,89 +3,112 @@
     "src": "/assets/Img/projets/ohMyFood/ohmyfood.webp",
     "title": "Oh My Food",
     "color": "#DA43C1",
-    "description": "Site de commande de restauration. Intégration maquette Figma en Html,Css. Utilisation de Sass et des animations",
+    "description": [
+      "+ Site de commande de restauration. ",
+      "+ Intégration maquette Figma en Html,Css. ",
+      "+ Utilisation de Sass et des animations. "
+    ],
     "link": "https://github.com/Olyrascode/OhMyFood",
     "background-color": "#F3D1F0",
     "screen": [
       "/assets/Img/projets/ohMyFood/ohmyfoodmobilmenu.png",
-      "/assets/Img/projets/ohMyFood/ohmyfood.webp",
-      "/assets/Img/projets/image3.webp"
+      "/assets/Img/projets/ohMyFood/ohmyfood.webp"
+   
     ],
     "techno": [ 
-      "/assets/Img/jsLogo.png",
-      "/assets/Img/sassLogo.png"
+      "+ Html",
+      "+ Sass",
+      "+ Figma"
     ]
   },
   {
     "src": "/assets/Img/projets/celtill.webp",
     "title": "Celtill",
-    "description": "Celtill Sécurité reseaux",
+    "description": [
+      "+ Entreprise Sécurité reseaux et audit. ",
+      "+ Convertion d'un projet html css en React. ",
+      "+ Suivie du projet"
+    ],
     "link": "https://github.com/Olyrascode/Celtill",
     "color": "#3565C5",
     "background-color": "#777BFE",
     "screen": [
       "/assets/Img/projets/celtill.webp",
-      "/assets/Img/projets/ohMyFood/ohmyfood.webp",
-      "/assets/Img/projets/image3.webp"
+      "/assets/Img/projets/ohMyFood/ohmyfood.webp"
+   
     ],
     "techno": [ 
-      "/assets/Img/jsLogo.png",
-      "/assets/Img/sassLogo.png",
-      "/assets/Img/reactLogo.png"
+      "+ React",
+      "+ React Rooter Dom",
+      "+ Sass"
     ]
   },
   {
       "src": "/assets/Img/projets/bluel.webp",
       "title": "Sophie Bluel",
-      "description": "PorteFollio Sophie Bluel",
+      "description": [
+        "+ Portfolio de Sophie Bluel ",
+        "+ Intégration maquette Figma Html Scss. ",
+        "+ Création d'un page login et d'une modal pour facilité l'ajout et le retrait de projet par le client. "
+      ],
       "link": "https://github.com/Olyrascode/SophieBluel",
       "color": "#DCA647",
       "background-color": "#FFD298",
       "screen": [
         "/assets/Img/projets/bluel.webp",
-        "/assets/Img/projets/ohMyFood/ohmyfood.webp",
-        "/assets/Img/projets/image3.webp"
+        "/assets/Img/projets/ohMyFood/ohmyfood.webp"
+       
       ],
       "techno": [ 
-        "/assets/Img/jsLogo.png",
-        "/assets/Img/sassLogo.png"
+        "+ Sass",
+        "+ Javascript vanilla",
+        "+ Api"
      
       ]
   },
   {
       "src": "/assets/Img/projets/Capture.webp",
       "title": "Booki",
-      "description": "Réservation de logement",
+      "description": [
+        "+ Site de réservation de logements ",
+        "+ Intégration maquette Figma en Html,Css. ",
+        "+ Projet V1 pour travail Backend"
+      ],
       "link": "lien_vers_plus_dinfos_2",
       "color": "#110AF6",
       "background-color": "#A4DFFF",
       "screen": [
         "/assets/Img/projets/Capture.webp",
-        "/assets/Img/projets/ohMyFood/ohmyfood.webp",
-        "/assets/Img/projets/image3.webp"
+        "/assets/Img/projets/ohMyFood/ohmyfood.webp"
+       
       ],
       "techno": [ 
-        "/assets/Img/jsLogo.png",
-        "/assets/Img/sassLogo.png",
-        "/assets/Img/reactLogo.png"
+        "+ Html",
+        "+ Css",
+        "+ Figma"
       ]
   },
   {
       "src": "/assets/Img/projets/kasascreen.png",
       "title": "Kasa",
-      "description": "Réservation de logement",
+      "description": [
+        "+ Site de réservation type Air BnB. ",
+        "+ Intégration maquette Figma en React. ",
+        "+ Utilisation de React Rooter Dom. "
+      ],
       "link": "https://github.com/Olyrascode/Kasa",
       "color": "#FD5050",
       "background-color": "#FFBCA4",
       "screen": [
         "/assets/Img/projets/kasascreen.png",
-        "/assets/Img/projets/ohMyFood/ohmyfood.webp",
-        "/assets/Img/projets/image3.webp"
+        "/assets/Img/projets/ohMyFood/ohmyfood.webp"
+  
       ],
       "techno": [ 
-        "/assets/Img/jsLogo.png",
-        "/assets/Img/sassLogo.png",
-        "/assets/Img/reactLogo.png"
+        "+ React",
+        "+ React Rooter Dom",
+        "+ Figma",
+        "+ Api"
       ]
   }
 ]
