@@ -20,7 +20,8 @@
       "+ Html",
       "+ Sass",
       "+ Figma"
-    ]
+    ],
+    "component": "ComponentOhMyFood"
   },
   {
     "src": "/assets/Img/projets/celtill/celtillbanner.JPG",
@@ -28,7 +29,7 @@
     "description": [
       "+ Entreprise Sécurité reseaux et audit. ",
       "+ Convertion d'un projet html css en React. ",
-      "+ Suivie du projet"
+      "+ Suivi du projet"
     ],
     "link": "https://github.com/Olyrascode/Celtill",
     "color": "#d6e1ff",
@@ -42,7 +43,8 @@
       "+ React",
       "+ React Rooter Dom",
       "+ Sass"
-    ]
+    ],
+    "component": "ComponentCeltill"
   },
   {
       "src": "/assets/Img/projets/sophieBluel/bluelbanner.JPG",
@@ -50,7 +52,7 @@
       "description": [
         "+ Portfolio de Sophie Bluel ",
         "+ Intégration maquette Figma Html Scss. ",
-        "+ Création d'un page login et d'une modal pour facilité l'ajout et le retrait de projet par le client. "
+        "+ Création d'une page login et d'une modal pour faciliter l'ajout et le retrait de projet par le client. "
       ],
       "link": "https://github.com/Olyrascode/SophieBluel",
       "color": "#DCA647",
@@ -66,7 +68,8 @@
         "+ Javascript vanilla",
         "+ Api"
      
-      ]
+      ],
+      "component": "ComponentSophieBluel"
   },
   {
       "src": "/assets/Img/projets/booki/bookiebanner.JPG",
@@ -88,7 +91,8 @@
         "+ Html",
         "+ Css",
         "+ Figma"
-      ]
+      ],
+      "component": "ComponentBookie"
   },
   {
       "src": "/assets/Img/projets/kasa/kasabanner.JPG",
@@ -113,7 +117,8 @@
         "+ React Rooter Dom",
         "+ Figma",
         "+ Api"
-      ]
+      ],
+      "component": "ComponentKasa"
   },
   {
     "src": "/assets/Img/projets/ninacarducci/ninacarduccibanner.JPG",
@@ -137,6 +142,8 @@
       "+ React Rooter Dom",
       "+ Figma",
       "+ Api"
-    ]
+    ],
+    "component": "ComponentNinaCarducci"
 }
+
 ]
