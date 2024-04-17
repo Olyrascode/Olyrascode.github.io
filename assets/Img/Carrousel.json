@@ -144,6 +144,16 @@
       "+ Api"
     ],
     "component": "ComponentNinaCarducci"
+},
+{
+  "src": "/assets/Img/projets/724Event/724EventBanner.JPG",
+  "title": "724Events",
+  "component": "Component724Event"
+},
+{
+  "src": "/assets/Img/projets/ArgentBank/argentBankBanner.JPG",
+  "title": "ArgentBank",
+  "component": "ComponentArgentBank"
 }
 
 ]
