@@ -1,5 +1,29 @@
 [
   {
+    "src": "/assets/Img/projets/SimplParis/simplParisBanner.jpg",
+    "title": "Simpl Paris",
+    "color": "#f87ff4",
+    "description": [
+      "+ Site de commande de restauration. ",
+      "+ Intégration maquette Figma en Html,Css. ",
+      "+ Utilisation de Sass et des animations. "
+    ],
+    "link": "https://github.com/Olyrascode/OhMyFood",
+    "background-color": "#d4f0f7",
+    "screen": [
+      "/assets/Img/projets/ohMyFood/ohmyfood.webp",
+      "/assets/Img/projets/ohMyFood/ohMyFoodAll.jpg",
+      "/assets/Img/projets/ohMyFood/ohmyfoodmobilmenu.png"
+   
+    ],
+    "techno": [ 
+      "+ Html",
+      "+ Sass",
+      "+ Figma"
+    ],
+    "component": "ComponentSimplParis"
+  },
+  {
     "src": "/assets/Img/projets/ohMyFood/ohmyfoodbanner.JPG",
     "title": "Oh My Food",
     "color": "#f87ff4",
